@@ -1,0 +1,19 @@
+button {
+    cursor: pointer;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.steps {
+    list-style: steps;
+}
+
+@counter-style steps {
+    /* system: numeric; */
+    system: fixed;
+    symbols: "1";
+    prefix: "Step ";
+    suffix: ": ";
+}
