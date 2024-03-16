@@ -32,7 +32,7 @@ initBounce(initial);
 setInterval(function(){
     if (count > 0) {
         bounce = document.createElement("img");
-        bounce.setAttribute("width", "30%");
+        bounce.setAttribute("width", "35%");
         bounce.setAttribute("class", "bounce button");
         bounce.setAttribute("src", "images/download-button.png");
         bounce.setAttribute("alt", "An incredibly annoying bouncng download button!");
