@@ -34,7 +34,7 @@ setInterval(function(){
         bounce = document.createElement("img");
         bounce.setAttribute("width", "35%");
         bounce.setAttribute("class", "bounce button");
-        bounce.setAttribute("src", "images/download-button.png");
+        bounce.setAttribute("src", "images/download-button.webp");
         bounce.setAttribute("alt", "An incredibly annoying bouncng download button!");
         initBounce(bounce);
 
