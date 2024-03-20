@@ -6,14 +6,24 @@
     /* background-image */
 }
 
-#pri-body {
-    width: 100%;
-    margin: 0 7%;
+#gaze {
+    text-align: center;
 }
 
 #void {
-    width: 80%;
+    width: 40%;
+    height: auto;
+    margin: auto;
     border: 3px solid black;
+}
+
+h1 {
+    /* font-size: xx-large; */
+    /* increase xx-larg? */
+}
+
+dt {
+    font-size: x-large
 }
 
 a {
@@ -21,7 +31,7 @@ a {
 }
 
 a:visited {
-    color: rgb(5, 45, 82);
+    color: rgb(79, 5, 89);
 }
 
 .content {
@@ -58,6 +68,7 @@ button {
 
 .steps {
     list-style: steps;
+    /* text-indent: 0%; */
 }
 
 @counter-style steps {
