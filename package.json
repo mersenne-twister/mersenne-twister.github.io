@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@xterm/xterm": "^5.4.0"
+  }
+}
