@@ -1,4 +1,4 @@
-let colors = ["red", "orange", "tan", "rebeccapurple", "silver", "maroon", "purple", "#DEADBEEF", "F00BA4"]
+let colors = ["red", "orange", "tan", "rebeccapurple", "silver", "maroon", "purple", "#DEADBEEF", "#F00BA4"]
 
 let ul = document.createElement("ul");
 for (let i = 0; i < colors.length; ++i) {
