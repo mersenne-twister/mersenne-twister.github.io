@@ -65,7 +65,8 @@ body {}
   animation-name: text-appear;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
-  animation-fill-mode: forwards
+  animation-fill-mode: forwards;
+  /* opacity: 0; */
 }
 
 #opiod>p {
@@ -75,6 +76,7 @@ body {}
   margin-top: auto;
   margin-bottom: auto;
   transform: translateX(-100%);
+  opacity: 0;
   /* visibility: hidden; */
 }
 
@@ -82,6 +84,10 @@ body {}
   from {
     transform: translateX(-100%);
     /* visibility: hidden; */
+    opacity: 0;
+  }
+
+  35% {
     opacity: 0;
   }
 
