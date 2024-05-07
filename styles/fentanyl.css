@@ -1,14 +1,18 @@
-html,
-body {
-  margin: 0;
-  width: 100vw;
-  height: 100vw;
-}
+/* html, */
+/* body { */
+/* margin: 0; */
+/* width: 100vw; */
+/* height: 100vw; */
+/* } */
 
-* {
-  color: white;
-  font-family: serif;
-}
+/* * { */
+/* color: white; */
+/* font-family: serif; */
+/* } */
+
+/* ::selection { */
+/* background: red; */
+/* } */
 
 /* #background { */
 /* position: absolute; */
@@ -21,78 +25,199 @@ body {
 /* z-index: -1; */
 /* } */
 
-html {
+/* html { */
+/* background-image: url("../images/pill.png"); */
+/* background-position: top left; */
+/* background-size: 12.5vw; */
+/* background-attachment: fixed; */
+/* background-repeat: repeat; */
+/* background-color: grey; */
+/* } */
+
+/* #body { */
+/* width: 50vw; */
+/* min-width: 700px; */
+/* max-width: 50vmax; */
+/* height: 98vh; */
+/* margin: auto; */
+/* margin-top: 1em; */
+/* margin-bottom: 1em; */
+/* background-color: #292929; */
+/* border-radius: 2em; */
+/* border: 0.5em solid #1d1d1d; */
+/* } */
+
+/* #content { */
+/* padding: 0 1em; */
+/* } */
+
+/* #content h1 { */
+/* text-align: center; */
+/* } */
+
+/* #opiod { */
+/* display: flex; */
+/* } */
+
+/* #opiod>img { */
+/* width: 50%; */
+/* } */
+
+/* #opiod>img:hover+p { */
+/* animation-name: text-appear; */
+/* animation-duration: 0.5s; */
+/* animation-iteration-count: 1; */
+/* animation-fill-mode: forwards; */
+/* opacity: 0; */
+/* } */
+
+/* #opiod>p { */
+/* width: 50%; */
+/* padding-left: 1em; */
+/* line-height: 1.5; */
+/* margin-top: auto; */
+/* margin-bottom: auto; */
+/* transform: translateX(-100%); */
+/* opacity: 0; */
+/* visibility: hidden; */
+/* } */
+
+/* @keyframes text-appear { */
+/* from { */
+/* transform: translateX(-100%); */
+/* visibility: hidden; */
+/* opacity: 0; */
+/* } */
+
+/* 35% { */
+/* opacity: 0; */
+/* } */
+
+/* to { */
+/* transform: translate(0); */
+/* opacity: 1; */
+/* } */
+/* } */
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+  font-size: 20pt;
+}
+
+#content {
   background-image: url("../images/pill.png");
   background-position: top left;
-  background-size: 100px;
+  background-size: 12.5vw;
   background-attachment: fixed;
   background-repeat: repeat;
   background-color: grey;
 }
 
-body {}
-
-#body {
-  width: 50vw;
-  min-width: 700px;
-  max-width: 50vmax;
-  height: 98vh;
-  margin: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  background-color: #292929;
-  border-radius: 2em;
-  border: 0.5em solid #1d1d1d;
+body {
+  background: #42455a;
 }
 
-#content {
-  padding: 0 1em;
-}
-
-#content h1 {
+#intro * {
   text-align: center;
 }
 
-#opiod {
+#opioid img {
+  width: 50%;
+}
+
+#opioid div {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1em;
+}
+
+#opioid p {}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-child(1) {
+  color: #e0ffff;
+  background-color: #42455a;
+}
+
+section:nth-child(3) {
+  color: #42455a;
+  background: #e0ffff;
+}
+
+section:nth-child(5) {
+  color: #e0ffff;
+  background-color: #42455a;
+}
+
+section:nth-child(7) {
+  color: #42455a;
+  background: #e0ffff;
+}
+
+section .container {
+  margin: 100px;
+  max-width: 1000pt;
+}
+
+section h1 {
+  font-size: 3rem;
+  margin: 20px;
+}
+
+section h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section .text-container {
   display: flex;
 }
 
-#opiod>img {
-  width: 50%;
+section .text-container .text-box {
+  margin: 20px;
+  padding: 20px;
+  background: #00c2cb;
 }
 
-#opiod>img:hover+p {
-  animation-name: text-appear;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  /* opacity: 0; */
+section .text-container .text-box h3 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
-#opiod>p {
-  width: 50%;
-  padding-left: 1em;
-  line-height: 1.5;
-  margin-top: auto;
-  margin-bottom: auto;
-  transform: translateX(-100%);
+@media (max-width: 900px) {
+  section h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  section .text-container {
+    flex-direction: column;
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
   opacity: 0;
-  /* visibility: hidden; */
+  transition: 1s all ease;
 }
 
-@keyframes text-appear {
-  from {
-    transform: translateX(-100%);
-    /* visibility: hidden; */
-    opacity: 0;
-  }
-
-  35% {
-    opacity: 0;
-  }
-
-  to {
-    transform: translate(0);
-    opacity: 1;
-  }
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }
