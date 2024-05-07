@@ -135,9 +135,10 @@ body {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 1em;
+  margin-right: 1em;
 }
 
-#opioid p {}
+/* #opioid p {} */
 
 section {
   min-height: 100vh;
@@ -174,6 +175,10 @@ section .container {
 section h1 {
   font-size: 3rem;
   margin: 20px;
+}
+
+h1>em {
+  font-size: 2.5rem;
 }
 
 section h2 {
