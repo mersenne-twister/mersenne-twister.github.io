@@ -128,15 +128,38 @@ body {
 
 #opioid img {
   width: 50%;
+  border: 2px solid black;
 }
 
-#opioid div {
+#opioid div:has(p) {
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 1em;
   margin-right: 1em;
 }
+
+#opioid p {
+  font-size: 1.5rem;
+}
+
+/* .ocean { */
+/* position: relative; */
+/* display: grid; */
+/* } */
+
+/* .ocean>* { */
+/* position: absolute; */
+/* grid-column-start: 1; */
+/* grid-row-start: 1; */
+/* } */
+
+/* #hand { */
+/* width: 0; */
+/* height: 15em; */
+/* } */
+
+/* #opioid div:has(img) {} */
 
 /* #opioid p {} */
 
@@ -163,6 +186,26 @@ section:nth-child(5) {
 }
 
 section:nth-child(7) {
+  color: #42455a;
+  background: #e0ffff;
+}
+
+section:nth-child(9) {
+  color: #42455a;
+  background: #e0ffff;
+}
+
+section:nth-child(11) {
+  color: #42455a;
+  background: #e0ffff;
+}
+
+section:nth-child(13) {
+  color: #42455a;
+  background: #e0ffff;
+}
+
+section:nth-child(15) {
   color: #42455a;
   background: #e0ffff;
 }
