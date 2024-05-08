@@ -105,7 +105,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Asap", sans-serif;
+  /* font-family: "Asap", sans-serif; */
+  font-family: serif;
   font-size: 107%;
 }
 
@@ -128,7 +129,14 @@ body {
 
 #opioid img {
   width: 50%;
-  border: 2px solid black;
+  height: 50%;
+  border: 0.2vw solid black;
+  transition: all 1s;
+}
+
+#opioid img:hover {
+  filter: drop-shadow(.3em .3em .3em black);
+  transition: all .5s;
 }
 
 #opioid div:has(p) {
@@ -140,7 +148,26 @@ body {
 }
 
 #opioid p {
-  font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: line-height 1s ease-in-out;
+  line-height: 100%;
+}
+
+#opioid p:hover {
+  /* line-height: 150%; */
+  line-height: 2.8vw;
+  transition: all 0.5s ease-in-out;
+}
+
+.reveal h2 {
+  font-size: 160%;
+  transition: all 1s;
+}
+
+.reveal h2:hover {
+  font-size: 180%;
+  transition: all .5s;
 }
 
 /* .ocean { */
