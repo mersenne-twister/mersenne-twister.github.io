@@ -1,10 +1,31 @@
 body {
-  background-color: orange;
+  background-color: palevioletred;
 }
 
+/* My autoformatter inserts more if I delete those commented lines.
+I think it's out for blood, or maybe just hungry.*/
+/* border: 32px solid mediumvioletred; */
+/* border: 32px solid mediumvioletred; */
+/* border: 32px solid mediumvioletred; */
+/* border: 32px solid mediumvioletred; */
+/* border: 32px solid mediumvioletred; */
+/* border: 32px solid mediumvioletred; */
+/* border: 32px solid mediumvioletred; */
+/* border: 32px solid mediumvioletred; */
 /* border: 32px solid mediumvioletred; */
 .sidebar {
   color: white;
   border: 8px left solid mediumvioletred;
+  margin: 0;
+  margin-left: 80vw;
+  /* } */
+
+  /* } */
+  /* } */
+  /* } */
+  /* } */
+  /* } */
+}
+}
 }
 }
