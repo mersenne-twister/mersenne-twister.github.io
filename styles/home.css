@@ -95,3 +95,24 @@ dl img {
 #wide {
   width: 50%;
 }
+
+.bounce {
+  animation-name: bouncer;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes bouncer {
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
