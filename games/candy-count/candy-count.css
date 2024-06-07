@@ -1,3 +1,10 @@
-.foo {
-  border: 32px solid mediumvioletred;
+body {
+  background-color: orange;
+}
+
+/* border: 32px solid mediumvioletred; */
+.sidebar {
+  color: white;
+  border: 8px left solid mediumvioletred;
+}
 }
