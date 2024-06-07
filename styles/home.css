@@ -87,3 +87,11 @@ tie a noose it's good for every use */
   /* color: rgb(59, 59, 59); */
   color: rgb(156, 1, 156);
 }
+
+dl img {
+  height: 40vh;
+}
+
+#wide {
+  width: 20vw;
+}
